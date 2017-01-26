@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="569866a3-71aa-45b7-8dc6-e6a1f1126e33" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demos/login-slideout/css/normalize.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demos/login-slideout/scss/main-components.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demos/login-slideout/scss/components/_colors.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demos/login-slideout/scss/components/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demos/login-slideout/scss/components/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demos/login-slideout/scss/header/_header.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demos/login-slideout/scss/slideout/_slideout.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demos/login-slideout/scss/main-components.scss" afterPath="$PROJECT_DIR$/demos/login-slideout/scss/main-components.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demos/login-slideout/slide-out.html" afterPath="$PROJECT_DIR$/demos/login-slideout/slide-out.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,9 +28,11 @@
       <file leaf-file-name="slide-out.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demos/login-slideout/slide-out.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="49" column="28" lean-forward="true" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
-              <folding />
+            <state relative-caret-position="578">
+              <caret line="34" column="46" lean-forward="true" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -42,6 +50,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>ul</find>
+      <find>box-sh</find>
+      <find>nav</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -50,10 +60,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/demos/login-slideout/scss/main-components.scss" />
         <option value="$PROJECT_DIR$/backbone/materialize/sass/_materialize.scss" />
         <option value="$PROJECT_DIR$/demos/login-slideout/css/normalize.css" />
+        <option value="$PROJECT_DIR$/demos/login-slideout/scss/main-components.scss" />
+        <option value="$PROJECT_DIR$/demos/login-slideout/scss/components/_mixins.scss" />
+        <option value="$PROJECT_DIR$/demos/login-slideout/scss/components/_variables.scss" />
         <option value="$PROJECT_DIR$/demos/login-slideout/slide-out.html" />
+        <option value="$PROJECT_DIR$/demos/login-slideout/scss/components/_colors.scss" />
+        <option value="$PROJECT_DIR$/demos/login-slideout/scss/header/_header.scss" />
       </list>
     </option>
   </component>
@@ -86,6 +100,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -124,7 +140,33 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demos" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="login-slideout" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -140,8 +182,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -233,12 +273,14 @@
       <updated>1485197729968</updated>
       <workItem from="1485197731290" duration="1676000" />
       <workItem from="1485199781389" duration="3595000" />
-      <workItem from="1485232770156" duration="1546000" />
+      <workItem from="1485232770156" duration="1944000" />
+      <workItem from="1485277826016" duration="5086000" />
+      <workItem from="1485398783893" duration="797000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6817000" />
+    <option name="totallyTimeSpent" value="13098000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -251,9 +293,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2553305" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26066098" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -303,9 +345,47 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/demos/login-slideout/slide-out.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="68" lean-forward="false" selection-start-line="6" selection-start-column="68" selection-end-line="6" selection-end-column="68" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/login-slideout/scss/header/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/login-slideout/scss/components/_colors.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/login-slideout/slide-out.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/login-slideout/slide-out.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -347,46 +427,39 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backbone/bootstrap/css/bootstrap-theme.css.map">
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
+      </provider>
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backbone/bootstrap/css/bootstrap.css.map">
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
+      </provider>
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backbone/bootstrap/css/bootstrap.min.css.map">
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
+      </provider>
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backbone/bootstrap/js/npm.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demos/login-slideout/scss/main-components.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="55" lean-forward="false" selection-start-line="0" selection-start-column="55" selection-end-line="0" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -401,15 +474,69 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="347">
           <caret line="477" column="14" lean-forward="true" selection-start-line="477" selection-start-column="14" selection-end-line="477" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/login-slideout/scss/slideout/_slideout.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/login-slideout/scss/main-components.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="true" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backbone/materialize/sass/components/_global.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="626" column="15" lean-forward="true" selection-start-line="626" selection-start-column="15" selection-end-line="626" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/login-slideout/scss/components/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/login-slideout/scss/components/_mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="51" column="22" lean-forward="true" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/login-slideout/scss/components/_colors.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos/login-slideout/scss/header/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="17" lean-forward="true" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demos/login-slideout/slide-out.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="49" column="28" lean-forward="true" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
-          <folding />
+        <state relative-caret-position="578">
+          <caret line="34" column="46" lean-forward="true" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

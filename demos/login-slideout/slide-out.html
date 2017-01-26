@@ -4,69 +4,71 @@
     <meta charset="UTF-8">
     <title>Login Slideout</title>
 
-    <link rel="stylesheet" type="text/css" href="../../backbone/bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="css/main-component.css">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
-
+    <link rel="stylesheet" type="text/css" href="../../backbone/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/main.components.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
     <script type="text/javascript" src="../../backbone/js-library/jquery-3.1.1.min.js"></script>
 </head>
 <body>
-<div class="container">
-    <header>
-      <div class="row">
-          <div class="col-md-10">
-              <nav>
-                  <a href="#" title="Home">Home</a>
-                  <a href="#" title="About Us">About Us</a>
-                  <a href="#" title="Services">Services</a>
-                  <a href="#" title="Contact Us">Contact Us</a>
-              </nav>
-          </div>
-          <div class="col-md-2">
-              <ul id="header-intercations">
-                  <li>
-                      <a href="#account">My Account</a>
-                  </li>
-              </ul>
-              <div class="slideout-wrapper">
-                  <div class="login-panel">
-                      <div class="top-part">
-                          <h3>Already registered?</h3>
-                          <p>If you have an account with us, please log in.</p>
-                          <form action="#" method="post">
-                              <div class="input-field">
-                                  <input id="email" type="email" name="email">
-                                  <label for="email">Email</label>
-                              </div>
-                              <div class="input-field">
-                                  <input id="password" type="password" name="password">
-                                  <label for="password">Password</label>
-                              </div>
-                              <div class="form-actions">
-                                  <button type="submit">Submit</button>
-                                  <a href="#forgotpass">Forgot Password</a>
-                              </div>
-                          </form>
-                      </div>
-                      <div class="bottom-part">
-                          <h3>
-                              New here?
-                          </h3>
-                          <p>
-                              Registration is free and easy!
-                          </p>
-                          <ul>
-                              <li>Faster Checkout</li>
-                              <li>Save multiple shipping addresses</li>
-                              <li>View and track orders and more</li>
-                          </ul>
-                          <button type="button">Create and Account</button>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-    </header>
-</div>
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10">
+                <nav>
+                    <a href="#" title="Home">Home</a>
+                    <a href="#" title="About Us">About Us</a>
+                    <a href="#" title="Services">Services</a>
+                    <a href="#" title="Contact Us">Contact Us</a>
+                </nav>
+            </div>
+            <div class="col-md-2">
+                <div id="header-intercations">
+                    <ul class="interaction-nav">
+                        <li>
+                            <a href="#account">My Account</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="slideout-wrapper" style="display: none">
+                    <div class="login-panel">
+                        <div class="top-part">
+                            <h3>Already registered?</h3>
+                            <p>If you have an account with us, please log in.</p>
+                            <form action="#" method="post">
+                                <div class="input-field">
+                                    <input id="email" type="email" name="email">
+                                    <label for="email">Email</label>
+                                </div>
+                                <div class="input-field">
+                                    <input id="password" type="password" name="password">
+                                    <label for="password">Password</label>
+                                </div>
+                                <div class="form-actions">
+                                    <button type="submit">Submit</button>
+                                    <a href="#forgotpass">Forgot Password</a>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="bottom-part">
+                            <h3>
+                                New here?
+                            </h3>
+                            <p>
+                                Registration is free and easy!
+                            </p>
+                            <ul>
+                                <li>Faster Checkout</li>
+                                <li>Save multiple shipping addresses</li>
+                                <li>View and track orders and more</li>
+                            </ul>
+                            <button type="button">Create and Account</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
 </body>
 </html>

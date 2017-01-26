@@ -1,0 +1,48 @@
+header {
+  @include boxShadow(0 2px 5px -2px $grey);
+  nav {
+    background-color: $white;
+    box-shadow: none;
+    a {
+      color: $black;
+      line-height: 64px;
+      height: 64px;
+      padding: 0 20px;
+      display: inline-block;
+      background-color: $white;
+      border-bottom: 0 solid transparent;
+      @include font-face($opensans--bold);
+      @include elemTransition(all .2s);
+
+      &:hover {
+        text-decoration: none;
+        color: $grey;
+        border-bottom: 4px solid $light-grey;
+      }
+    }
+  }
+
+  #header-intercations {
+    .interaction-nav {
+      margin: 0;
+
+      a {
+        color: $red;
+        line-height: 64px;
+        height: 64px;
+        padding: 0 20px;
+        display: inline-block;
+        background-color: $white;
+        border-bottom: 0 solid transparent;
+        @include font-face($opensans--bold);
+        @include elemTransition(all .2s);
+
+        &:hover {
+          text-decoration: none;
+          color: $dark-red;
+          border-bottom: 4px solid $dark-red;
+        }
+      }
+    }
+  }
+}

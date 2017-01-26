@@ -1,0 +1,81 @@
+@mixin breakpoint($min: 0, $max: 0) {
+  $type: type-of($min);
+
+  @if $type == number {
+    // Allow for custom parameters for min and max size
+    $query: "all" !default;
+    @if      $min != 0 and $max != 0 { $query: "(min-width: #{$min}) and (max-width: #{$max})"; } // set both min and max
+    @else if $min != 0 and $max == 0 { $query: "(min-width: #{$min})"; } // set just min
+    @else if $min == 0 and $max != 0 { $query: "(max-width: #{$max})"; } // set just max
+    @media #{$query} { @content; }
+  }
+}
+
+
+@mixin font-face($font-obj) {
+  font-family: map-get($font-obj, font);
+  font-weight: map-get($font-obj, weight);
+  font-style: map-get($font-obj, type);
+}
+
+@font-face {
+  font-family: "fontawesome";
+  src: url("../fonts/coricraft-icons.eot");
+  src: url("../fonts/coricraft-icons.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/coricraft-icons.woff2") format("woff2"),
+  url("../fonts/coricraft-icons.woff") format("woff"),
+  url("../fonts/coricraft-icons.ttf") format("truetype"),
+  url("../fonts/coricraft-icons.svg#Coricraft") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin icons($color, $size) {
+  display: inline-block;
+  font-family: "fontawesome";
+  color: $color;
+  font-size: $size;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+}
+
+@mixin borderRadius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin boxShadow($shadow) {
+  -webkit-box-shadow: $shadow;
+  -moz-box-shadow: $shadow;
+  box-shadow: $shadow;
+}
+
+@mixin elemTransform($tranform) {
+  -webkit-transform: $tranform;
+  -moz-transform: $tranform;
+  -ms-transform: $tranform;
+  -o-transform: $tranform;
+  transform: $tranform;
+}
+
+@mixin elemTransition($transition) {
+  -webkit-transition: $transition;
+  -moz-transition: $transition;
+  -ms-transition: $transition;
+  -o-transition: $transition;
+  transition: $transition;
+}
+
+@mixin buttonType ($background, $color, $border-color) {
+  background: $background;
+  color: $color;
+  border-color: $border-color;
+}
+
+@mixin buttonHover ($background, $color, $border-color) {
+  background: $background;
+  color: $color;
+  border-color: $border-color;
+}
